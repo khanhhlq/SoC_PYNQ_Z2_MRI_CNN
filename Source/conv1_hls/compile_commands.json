@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "D:\\SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls",
+    "arguments": [
+      "C:\\AMDDesignTools\\2026.1\\Vitis\\win64\\tools\\clang-16\\bin\\clang++.exe",
+      "--sysroot=C:\\AMDDesignTools\\2026.1\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\AMDDesignTools\\2026.1\\Vitis\\common\\technology\\autopilot",
+      "-fhlstoplevel=conv1_hls",
+      "-c",
+      "D:\\SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls\\conv1.cpp"
+    ],
+    "file": "D:\\SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls\\conv1.cpp"
+  },
+  {
+    "directory": "D:\\SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls",
+    "arguments": [
+      "C:\\AMDDesignTools\\2026.1\\Vitis\\win64\\tools\\clang-16\\bin\\clang++.exe",
+      "--sysroot=C:\\AMDDesignTools\\2026.1\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=C:\\AMDDesignTools\\2026.1\\Vitis\\include",
+      "-c",
+      "D:\\SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls\\conv1_tb.cpp"
+    ],
+    "file": "D:\\SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls\\conv1_tb.cpp"
+  }
+]

@@ -1,0 +1,33 @@
+=== LAB 06 - 995 MRI TEST IMAGES ===
+Total images: 995
+Identical ARM/Hybrid outputs: 995/995
+ARM accuracy: 92.66%
+Hybrid accuracy: 92.66%
+ARM macro F1: 0.9194
+Hybrid macro F1: 0.9194
+
+=== MEDIAN INFERENCE TIME ===
+ARM only: 23.644 ms
+FPGA + DMA: 1.452 ms
+ARM tail: 16.431 ms
+ARM + FPGA: 17.855 ms
+Speedup (ratio of medians): 1.324x
+Speedup (total inference time): 1.324x
+
+=== CONFUSION MATRIX - ARM ===
+[[244   7   0   2]
+ [ 17 264  12  10]
+ [  3  13 117   6]
+ [  1   2   0 297]]
+
+=== CONFUSION MATRIX - HYBRID ===
+[[244   7   0   2]
+ [ 17 264  12  10]
+ [  3  13 117   6]
+ [  1   2   0 297]]
+
+=== PER-CLASS PRECISION / RECALL / F1 (HYBRID) ===
+glioma: P=0.9208 R=0.9644 F1=0.9421
+meningioma: P=0.9231 R=0.8713 F1=0.8964
+no_tumor: P=0.9070 R=0.8417 F1=0.8731
+pituitary: P=0.9429 R=0.9900 F1=0.9659

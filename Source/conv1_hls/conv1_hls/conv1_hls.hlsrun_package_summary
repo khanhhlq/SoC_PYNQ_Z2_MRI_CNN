@@ -1,0 +1,157 @@
+<ENTRY>
+{
+ "thisFile": "D:/SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls\\conv1_hls\\conv1_hls.hlsrun_package_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "10/31/26 02:01:35",
+ "timestampMillis": "1793386895238",
+ "buildStep": {
+  "cmdId": "ed2e3e6b-ac3c-4161-bf49-b70a6fd8221d",
+  "name": "vitis-run",
+  "logFile": "D:/SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls\\conv1_hls\\logs\\conv1_hls.steps.log",
+  "commandLine": "C:/AMDDesignTools/2026.1/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --package --config D:\\SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls\\hls_config.cfg --work_dir conv1_hls ",
+  "args": [
+   "--mode",
+   "hls",
+   "--package",
+   "--config",
+   "D:\\SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls\\hls_config.cfg",
+   "--work_dir",
+   "conv1_hls"
+  ],
+  "iniFiles": [],
+  "cwd": "D:\\SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "10/31/26 02:01:35",
+ "timestampMillis": "1793386895238",
+ "status": {
+  "cmdId": "ed2e3e6b-ac3c-4161-bf49-b70a6fd8221d",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "10/31/26 02:01:39",
+ "timestampMillis": "1793386899986",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IP",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "conv1_hls",
+     "file": "D:/SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls\\conv1_hls\\conv1_hls.zip",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "D:/SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls\\conv1.cpp",
+     "D:/SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls\\conv1_int8_params.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2026.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "10/31/26 02:01:39",
+ "timestampMillis": "1793386899987",
+ "buildStep": {
+  "cmdId": "acbb7445-bd54-485b-a9ab-c5aa8b4f8a9e",
+  "name": "",
+  "logFile": "D:/SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls\\conv1_hls\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "D:\\SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "10/31/26 02:01:39",
+ "timestampMillis": "1793386899987",
+ "status": {
+  "cmdId": "acbb7445-bd54-485b-a9ab-c5aa8b4f8a9e",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "10/31/26 02:02:03",
+ "timestampMillis": "1793386923140",
+ "status": {
+  "cmdId": "acbb7445-bd54-485b-a9ab-c5aa8b4f8a9e",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "10/31/26 02:02:03",
+ "timestampMillis": "1793386923263",
+ "status": {
+  "cmdId": "ed2e3e6b-ac3c-4161-bf49-b70a6fd8221d",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "10/31/26 02:02:03",
+ "timestampMillis": "1793386923263",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "10/31/26 02:02:03",
+ "timestampMillis": "1793386923264",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

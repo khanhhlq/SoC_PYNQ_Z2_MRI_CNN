@@ -1,0 +1,57 @@
+  **** HLS Build v2026.1 6493734
+INFO: [HLS 200-2005] Using work_dir D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_hls 
+INFO: [HLS 200-2176] Writing Vitis IDE component file D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_hls/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_hls'.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=./conv1.cpp' from hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=./conv1_int8_params.h' from hls_config.cfg(10)
+INFO: [HLS 200-10] Adding design file 'D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_int8_params.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=./conv1_tb.cpp' from hls_config.cfg(8)
+INFO: [HLS 200-10] Adding test bench file 'D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=conv1_hls' from hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from hls_config.cfg(1)
+INFO: [HLS 200-1465] Applying config ini 'clock=10ns' from hls_config.cfg(6)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying config ini 'package.ip.description=Tiny CNN V5 Conv1 INT8 Accelerator' from hls_config.cfg(11)
+INFO: [HLS 200-1465] Applying config ini 'package.ip.display_name=Conv1 INT8 Accelerator' from hls_config.cfg(12)
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(4)
+INFO: [HLS 200-2176] Writing Vitis IDE component file D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_hls/vitis-comp.json
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 18-aug-2027.
+
+****** Vivado v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Sat Oct 31 02:01:41 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: calling package_hls_ip ip_types=vitis sysgen json_file=D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_hls/hls/hls_data.json outdir=D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_hls/hls/impl/ip srcdir=D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_hls/hls ippack_options_dict= ippack_options_dict=
+INFO: Copied 1 ipmisc file(s) to D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_hls/hls/impl/ip/misc
+INFO: Copied 43 verilog file(s) to D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_hls/hls/impl/ip/hdl/verilog
+INFO: Copied 41 vhdl file(s) to D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_hls/hls/impl/ip/hdl/vhdl
+INFO: Copied 10 swdriver file(s) to D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_hls/hls/impl/ip/drivers
+ipx::create_core: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 590.066 ; gain = 269.117
+INFO: Import ports from HDL: D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_hls/hls/impl/ip/hdl/vhdl/conv1_hls.vhd (conv1_hls)
+INFO: Add axi4lite interface s_axi_control
+INFO: Add clock interface ap_clk
+INFO: Add reset interface ap_rst_n
+INFO: Add interrupt interface interrupt
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2026.1/Vivado/data/ip'.
+INFO: Add axi4stream interface s_axis
+INFO: Add axi4stream interface m_axis
+INFO: Calling post_process_vitis to specialize IP
+INFO: Calling post_process_sysgen to specialize IP
+Generating sysgen info xml from json file
+INFO: Created IP D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_hls/hls/impl/ip/component.xml
+INFO: Created IP archive D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_hls/hls/impl/ip/xilinx_com_hls_conv1_hls_1_0.zip
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 31 02:02:02 2026...
+INFO: [HLS 200-802] Generated output file conv1_hls/conv1_hls.zip
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 26.251 seconds; peak allocated memory: 211.605 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 30s

@@ -1,0 +1,18 @@
+# Vivado generated files
+.Xil/
+*.cache/
+*.runs/
+*.gen/
+*.sim/
+*.hw/
+ip_user_files/
+
+# Vitis HLS generated files
+.autopilot/
+xsim.dir/
+/Source/conv1_hls/conv1_hls/hls/sim/
+
+# Python temporary files
+__pycache__/
+.ipynb_checkpoints/
+*.pyc

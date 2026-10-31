@@ -1,0 +1,3 @@
+relativeroot=D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls
+original_argv=--mode hls --package --config D:\SoC_PYNQ_Z2_MRI_CNN\Source\conv1_hls\hls_config.cfg --work_dir conv1_hls 
+
