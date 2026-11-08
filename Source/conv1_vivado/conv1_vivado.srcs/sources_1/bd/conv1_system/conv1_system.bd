@@ -1,14 +1,13 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0xCC6CFA53F622E079",
+      "boundary_crc": "0xCC6CFA53B4580162",
       "device": "xc7z020clg400-1",
       "gen_directory": "../../../../conv1_vivado.gen/sources_1/bd/conv1_system",
       "name": "conv1_system",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "None",
-      "tool_version": "2026.1",
-      "validated": "true"
+      "tool_version": "2026.1"
     },
     "design_tree": {
       "processing_system7_0": "",
