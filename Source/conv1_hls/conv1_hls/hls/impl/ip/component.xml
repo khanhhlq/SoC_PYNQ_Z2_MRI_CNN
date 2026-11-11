@@ -2183,8 +2183,8 @@
       </xilinx:taxonomies>
       <xilinx:displayName>Conv1 INT8 Accelerator</xilinx:displayName>
       <xilinx:definitionSource>HLS</xilinx:definitionSource>
-      <xilinx:coreRevision>2114852641</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2026-10-30T19:02:01Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>2114867803</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2026-11-10T07:44:09Z</xilinx:coreCreationDateTime>
       <xilinx:sdxKernelAttributes>
         <xilinx:sdx_kernel>true</xilinx:sdx_kernel>
         <xilinx:sdx_kernel_type>hls</xilinx:sdx_kernel_type>

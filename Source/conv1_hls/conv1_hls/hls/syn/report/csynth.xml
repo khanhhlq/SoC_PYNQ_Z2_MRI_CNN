@@ -852,6 +852,7 @@
     </ModuleInformation>
     <FIFOInformation/>
     <UserConfigCommands>
+        <config_export description="Tiny CNN V5 Conv1 INT8 Accelerator" display_name="Conv1 INT8 Accelerator"/>
         <config_interface m_axi_alignment_size="1"/>
         <config_rtl auto_prefix="1"/>
     </UserConfigCommands>

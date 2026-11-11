@@ -9,10 +9,10 @@
 <ENTRY>
 {
  "type": "ET_CmdStep",
- "dateTimestamp": "10/31/26 01:52:03",
- "timestampMillis": "1793386323515",
+ "dateTimestamp": "11/10/26 14:37:46",
+ "timestampMillis": "1794296266174",
  "buildStep": {
-  "cmdId": "a0d45951-afc2-4651-ae5e-feb42510b5f9",
+  "cmdId": "8ff911d3-be83-4ea3-87b3-0aaf6a0c7d4b",
   "name": "v++",
   "logFile": "D:/SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls\\conv1_hls\\logs\\conv1_hls.steps.log",
   "commandLine": "C:/AMDDesignTools/2026.1/Vitis/bin/unwrapped/win64.o/v++.exe  -c --mode hls --config D:\\SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls\\hls_config.cfg --work_dir conv1_hls ",
@@ -28,7 +28,7 @@
   "iniFiles": [
    {
     "path": "D:/SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls\\hls_config.cfg",
-    "content": "part=xc7z020clg400-1\n\n[hls]\npackage.output.format=ip_catalog\npackage.output.syn=false\nclock=10ns\nsyn.top=conv1_hls\ntb.file=./conv1_tb.cpp\nsyn.file=./conv1.cpp\nsyn.file=./conv1_int8_params.h"
+    "content": "part=xc7z020clg400-1\n\n[hls]\npackage.output.format=ip_catalog\npackage.output.syn=false\nclock=10ns\nsyn.top=conv1_hls\ntb.file=./conv1_tb.cpp\nsyn.file=./conv1.cpp\nsyn.file=./conv1_int8_params.h\npackage.ip.description=Tiny CNN V5 Conv1 INT8 Accelerator\npackage.ip.display_name=Conv1 INT8 Accelerator"
    }
   ],
   "cwd": "D:\\SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls"
@@ -38,10 +38,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "10/31/26 01:52:03",
- "timestampMillis": "1793386323515",
+ "dateTimestamp": "11/10/26 14:37:46",
+ "timestampMillis": "1794296266175",
  "status": {
-  "cmdId": "a0d45951-afc2-4651-ae5e-feb42510b5f9",
+  "cmdId": "8ff911d3-be83-4ea3-87b3-0aaf6a0c7d4b",
   "state": "CS_RUNNING"
  }
 }
@@ -49,8 +49,8 @@
 <ENTRY>
 {
  "type": "ET_FlowMetaData",
- "dateTimestamp": "10/31/26 01:52:08",
- "timestampMillis": "1793386328424",
+ "dateTimestamp": "11/10/26 14:37:54",
+ "timestampMillis": "1794296274384",
  "buildSummary": {
   "hardwarePlatform": "",
   "hardwareDsa": "",
@@ -86,10 +86,10 @@
 <ENTRY>
 {
  "type": "ET_SubCmdStep",
- "dateTimestamp": "10/31/26 01:52:08",
- "timestampMillis": "1793386328425",
+ "dateTimestamp": "11/10/26 14:37:54",
+ "timestampMillis": "1794296274386",
  "buildStep": {
-  "cmdId": "e423abb3-06a2-4e8d-8cab-499a921e1e85",
+  "cmdId": "93204325-c59e-4ef2-844a-fff3ed1b97f0",
   "name": "",
   "logFile": "D:/SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls\\conv1_hls\\hls\\hls.log",
   "commandLine": "",
@@ -102,10 +102,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "10/31/26 01:52:08",
- "timestampMillis": "1793386328425",
+ "dateTimestamp": "11/10/26 14:37:54",
+ "timestampMillis": "1794296274386",
  "status": {
-  "cmdId": "e423abb3-06a2-4e8d-8cab-499a921e1e85",
+  "cmdId": "93204325-c59e-4ef2-844a-fff3ed1b97f0",
   "state": "CS_RUNNING"
  }
 }
@@ -113,8 +113,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "10/31/26 01:52:08",
- "timestampMillis": "1793386328426",
+ "dateTimestamp": "11/10/26 14:37:54",
+ "timestampMillis": "1794296274386",
  "report": {
   "path": "D:/SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls\\conv1_hls\\hls\\hls_data.json",
   "name": "",
@@ -127,8 +127,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "10/31/26 01:52:08",
- "timestampMillis": "1793386328426",
+ "dateTimestamp": "11/10/26 14:37:54",
+ "timestampMillis": "1794296274387",
  "report": {
   "path": "D:/SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls\\conv1_hls\\hls\\syn\\report\\csynth.rpt",
   "name": "",
@@ -141,8 +141,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "10/31/26 01:52:08",
- "timestampMillis": "1793386328426",
+ "dateTimestamp": "11/10/26 14:37:54",
+ "timestampMillis": "1794296274387",
  "report": {
   "path": "D:/SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls\\conv1_hls\\hls\\syn\\report\\csynth.xml",
   "name": "",
@@ -155,8 +155,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "10/31/26 01:52:45",
- "timestampMillis": "1793386365227",
+ "dateTimestamp": "11/10/26 14:38:34",
+ "timestampMillis": "1794296314553",
  "report": {
   "path": "D:/SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls\\conv1_hls\\hls",
   "name": "",
@@ -169,8 +169,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "10/31/26 01:52:45",
- "timestampMillis": "1793386365228",
+ "dateTimestamp": "11/10/26 14:38:34",
+ "timestampMillis": "1794296314554",
  "report": {
   "path": "D:/SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls\\conv1_hls\\hls",
   "name": "",
@@ -183,8 +183,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "10/31/26 01:52:45",
- "timestampMillis": "1793386365228",
+ "dateTimestamp": "11/10/26 14:38:34",
+ "timestampMillis": "1794296314554",
  "report": {
   "path": "D:/SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls\\conv1_hls\\hls",
   "name": "",
@@ -197,10 +197,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "10/31/26 01:52:45",
- "timestampMillis": "1793386365229",
+ "dateTimestamp": "11/10/26 14:38:34",
+ "timestampMillis": "1794296314555",
  "status": {
-  "cmdId": "e423abb3-06a2-4e8d-8cab-499a921e1e85",
+  "cmdId": "93204325-c59e-4ef2-844a-fff3ed1b97f0",
   "state": "CS_PASSED"
  }
 }
@@ -208,10 +208,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "10/31/26 01:52:45",
- "timestampMillis": "1793386365410",
+ "dateTimestamp": "11/10/26 14:38:34",
+ "timestampMillis": "1794296314816",
  "status": {
-  "cmdId": "a0d45951-afc2-4651-ae5e-feb42510b5f9",
+  "cmdId": "8ff911d3-be83-4ea3-87b3-0aaf6a0c7d4b",
   "state": "CS_PASSED"
  }
 }
@@ -219,8 +219,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "10/31/26 01:52:45",
- "timestampMillis": "1793386365440",
+ "dateTimestamp": "11/10/26 14:38:34",
+ "timestampMillis": "1794296314862",
  "report": {
   "path": "D:/SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls\\conv1_hls\\reports\\v++_compile_conv1_hls_guidance.html",
   "name": "",
@@ -233,8 +233,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "10/31/26 01:52:45",
- "timestampMillis": "1793386365441",
+ "dateTimestamp": "11/10/26 14:38:34",
+ "timestampMillis": "1794296314863",
  "report": {
   "path": "D:/SoC_PYNQ_Z2_MRI_CNN\\Source\\conv1_hls\\conv1_hls\\reports\\.db\\v++_compile_conv1_hls_guidance.pb3",
   "name": "",

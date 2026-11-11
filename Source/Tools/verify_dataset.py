@@ -4,7 +4,7 @@ from collections import defaultdict
 import hashlib
 
 dataset = Path(
-    r"D:\SoC_PYNQ_Z2_MRI_CNN\Source\Dataset_MRI\classification_task"
+    r"D:\SoC_PYNQ_Z2_MRI_CNN\source\Dataset_MRI\classification_task"
 )
 
 groups = defaultdict(list)

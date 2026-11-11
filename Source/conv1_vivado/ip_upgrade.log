@@ -1,0 +1,16 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Tue Nov 10 14:45:20 2026
+| Host         : KHANHLQ running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'conv1_system_conv1_hls_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of conv1_system_conv1_hls_0_0 (xilinx.com:hls:conv1_hls:1.0) from (Rev. 2114852641) to (Rev. 2114867803)
+

@@ -4,10 +4,10 @@ INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detect
 # SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
 # IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
 # SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
-# Start of session at: Fri Nov  6 19:48:16 2026
-# Process ID         : 4120
+# Start of session at: Tue Nov 10 14:21:10 2026
+# Process ID         : 24256
 # Current directory  : D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado
-# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent21220 D:\SoC_PYNQ_Z2_MRI_CNN\Source\conv1_vivado\conv1_vivado.xpr
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent23252 D:\SoC_PYNQ_Z2_MRI_CNN\Source\conv1_vivado\conv1_vivado.xpr
 # Log file           : D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/vivado.log
 # Journal file       : D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado\vivado.jou
 # Running On         : KHANHLQ
@@ -20,22 +20,58 @@ INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detect
 # Host memory        : 14286 MB
 # Swap memory        : 16106 MB
 # Total Virtual      : 30392 MB
-# Available Virtual  : 5481 MB
+# Available Virtual  : 14385 MB
 #-----------------------------------------------------------
 start_gui
 open_project D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.xpr
 WARNING: [Board 49-91] Board repository path 'D:/SoC_MRI/board_files/pynq-supported-board-file-master/pynq-z2/A.0' does not exist, it will not be used to search board files.
 WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'D:/SoC_MRI/board_files/pynq-supported-board-file-master/pynq-z2/A.0'.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1'.
 Scanning sources...
 Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_hls/hls/impl/ip'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2026.1/Vivado/data/ip'.
-open_project: Time (s): cpu = 00:00:54 ; elapsed = 00:00:33 . Memory (MB): peak = 1806.387 ; gain = 400.418
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.051 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.006 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.033 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.051 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.006 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.033 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.051 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.006 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.033 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.051 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.006 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.033 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.051 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.006 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.033 . PS DDR interfaces might fail when entering negative DQS skew values. 
+open_project: Time (s): cpu = 00:00:58 ; elapsed = 00:00:43 . Memory (MB): peak = 1810.301 ; gain = 395.316
 update_compile_order -fileset sources_1
 open_bd_design {D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.srcs/sources_1/bd/conv1_system/conv1_system.bd}
 Reading block design file <D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.srcs/sources_1/bd/conv1_system/conv1_system.bd>...
 Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.051 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.006 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.033 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.051 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.006 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.033 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.051 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.006 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.033 . PS DDR interfaces might fail when entering negative DQS skew values. 
 Adding component instance block -- xilinx.com:hls:conv1_hls:1.0 - conv1_hls_0
 Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
 Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - axi_smc
@@ -45,140 +81,187 @@ Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - au
 Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon_1
 Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
 Successfully read diagram <conv1_system> from block design file <D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.srcs/sources_1/bd/conv1_system/conv1_system.bd>
-open_bd_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:14 . Memory (MB): peak = 1949.586 ; gain = 124.184
+open_bd_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1929.719 ; gain = 103.504
 regenerate_bd_layout
 regenerate_bd_layout
-INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
-INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
-CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.051 . PS DDR interfaces might fail when entering negative DQS skew values. 
-CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.006 . PS DDR interfaces might fail when entering negative DQS skew values. 
-CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
-CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.033 . PS DDR interfaces might fail when entering negative DQS skew values. 
-CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.051 . PS DDR interfaces might fail when entering negative DQS skew values. 
-CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.006 . PS DDR interfaces might fail when entering negative DQS skew values. 
-CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
-CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.033 . PS DDR interfaces might fail when entering negative DQS skew values. 
-WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
-CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.051 . PS DDR interfaces might fail when entering negative DQS skew values. 
-CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.006 . PS DDR interfaces might fail when entering negative DQS skew values. 
-CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
-CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.033 . PS DDR interfaces might fail when entering negative DQS skew values. 
-copy_bd_objs /  [get_bd_cells {conv1_hls_0}]
-startgroup
-make_bd_intf_pins_external  [get_bd_intf_pins conv1_hls_1/s_axi_control]
-endgroup
-set_property location {658 -448} [get_bd_intf_ports s_axi_control_0]
-set_property location {1 163 -438} [get_bd_cells conv1_hls_1]
-startgroup
-make_bd_intf_pins_external  [get_bd_intf_pins conv1_hls_1/s_axis]
-endgroup
-startgroup
-make_bd_pins_external  [get_bd_pins conv1_hls_1/ap_clk]
-endgroup
-startgroup
-make_bd_pins_external  [get_bd_pins conv1_hls_1/ap_rst_n]
-endgroup
-startgroup
-make_bd_intf_pins_external  [get_bd_intf_pins conv1_hls_1/m_axis]
-endgroup
-startgroup
-make_bd_pins_external  [get_bd_pins conv1_hls_1/interrupt]
-endgroup
-set_property location {385 -455} [get_bd_intf_ports m_axis_0]
-set_property location {414 -406} [get_bd_ports interrupt_0]
-set_property location {806 -453} [get_bd_intf_ports m_axis_0]
-set_property location {739 -407} [get_bd_ports interrupt_0]
-set_property location {794 -443} [get_bd_ports interrupt_0]
-set_property location {442 -464} [get_bd_ports interrupt_0]
-set_property location {441 -451} [get_bd_ports interrupt_0]
-set_property location {445 -564} [get_bd_ports interrupt_0]
-set_property location {415 -398} [get_bd_ports interrupt_0]
-set_property location {437 -538} [get_bd_ports interrupt_0]
 regenerate_bd_layout
-undo
-INFO: [Common 17-17] undo 'regenerate_bd_layout'
-delete_bd_objs [get_bd_nets conv1_hls_1_interrupt]
-delete_bd_objs [get_bd_ports interrupt_0]
-delete_bd_objs [get_bd_intf_nets conv1_hls_1_m_axis] [get_bd_intf_ports m_axis_0]
-startgroup
-make_bd_intf_pins_external  [get_bd_intf_pins conv1_hls_1/m_axis]
-endgroup
-undo
-INFO: [Common 17-17] undo 'endgroup'
-INFO: [Common 17-17] undo 'make_bd_intf_pins_external  [get_bd_intf_pins conv1_hls_1/m_axis]'
-INFO: [Common 17-17] undo 'startgroup'
-undo
-INFO: [Common 17-17] undo 'delete_bd_objs [get_bd_intf_nets conv1_hls_1_m_axis] [get_bd_intf_ports m_axis_0]'
-undo
-INFO: [Common 17-17] undo 'delete_bd_objs [get_bd_ports interrupt_0]'
-undo
-INFO: [Common 17-17] undo 'delete_bd_objs [get_bd_nets conv1_hls_1_interrupt]'
-undo
-INFO: [Common 17-17] undo 'set_property location {437 -538} [get_bd_ports interrupt_0]'
-undo
-INFO: [Common 17-17] undo 'set_property location {415 -398} [get_bd_ports interrupt_0]'
-undo
-INFO: [Common 17-17] undo 'set_property location {445 -564} [get_bd_ports interrupt_0]'
-undo
-INFO: [Common 17-17] undo 'set_property location {441 -451} [get_bd_ports interrupt_0]'
-undo
-INFO: [Common 17-17] undo 'set_property location {442 -464} [get_bd_ports interrupt_0]'
-undo
-INFO: [Common 17-17] undo 'set_property location {794 -443} [get_bd_ports interrupt_0]'
-undo
-INFO: [Common 17-17] undo 'set_property location {739 -407} [get_bd_ports interrupt_0]'
-undo
-INFO: [Common 17-17] undo 'set_property location {806 -453} [get_bd_intf_ports m_axis_0]'
-undo
-INFO: [Common 17-17] undo 'set_property location {414 -406} [get_bd_ports interrupt_0]'
-undo
-INFO: [Common 17-17] undo 'set_property location {385 -455} [get_bd_intf_ports m_axis_0]'
-undo
-INFO: [Common 17-17] undo 'endgroup'
-INFO: [Common 17-17] undo 'make_bd_pins_external  [get_bd_pins conv1_hls_1/interrupt]'
-INFO: [Common 17-17] undo 'startgroup'
-undo
-INFO: [Common 17-17] undo 'endgroup'
-INFO: [Common 17-17] undo 'make_bd_intf_pins_external  [get_bd_intf_pins conv1_hls_1/m_axis]'
-INFO: [Common 17-17] undo 'startgroup'
-undo
-INFO: [Common 17-17] undo 'endgroup'
-INFO: [Common 17-17] undo 'make_bd_pins_external  [get_bd_pins conv1_hls_1/ap_rst_n]'
-INFO: [Common 17-17] undo 'startgroup'
-undo
-INFO: [Common 17-17] undo 'endgroup'
-INFO: [Common 17-17] undo 'make_bd_pins_external  [get_bd_pins conv1_hls_1/ap_clk]'
-INFO: [Common 17-17] undo 'startgroup'
-undo
-INFO: [Common 17-17] undo 'endgroup'
-INFO: [Common 17-17] undo 'make_bd_intf_pins_external  [get_bd_intf_pins conv1_hls_1/s_axis]'
-INFO: [Common 17-17] undo 'startgroup'
-undo
-INFO: [Common 17-17] undo 'set_property location {1 163 -438} [get_bd_cells conv1_hls_1]'
-undo
-INFO: [Common 17-17] undo 'set_property location {658 -448} [get_bd_intf_ports s_axi_control_0]'
-undo
-INFO: [Common 17-17] undo 'endgroup'
-INFO: [Common 17-17] undo 'make_bd_intf_pins_external  [get_bd_intf_pins conv1_hls_1/s_axi_control]'
-INFO: [Common 17-17] undo 'startgroup'
-undo
-INFO: [Common 17-17] undo 'copy_bd_objs /  [get_bd_cells {conv1_hls_0}]'
-undo
-INFO: [Common 17-17] undo 'regenerate_bd_layout'
-undo
-INFO: [Common 17-17] undo 'regenerate_bd_layout'
-regenerate_bd_layout
-save_bd_design
+generate_target all [get_files  D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.srcs/sources_1/bd/conv1_system/conv1_system.bd]
+INFO: [BD 5-943] Reserving offset range <0x41E0_0000 [ 64K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [BD 5-943] Reserving offset range <0x4000_0000 [ 64K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M01_AXI'. This will be used by smartconnect on path for routing.
+INFO: [BD 5-943] Reserving offset range <0x41E0_0000 [ 64K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [BD 5-943] Reserving offset range <0x4000_0000 [ 64K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M01_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] conv1_system_axi_smc_0: SmartConnect conv1_system_axi_smc_0 is in Ultralite mode.
 Wrote  : <D:\SoC_PYNQ_Z2_MRI_CNN\Source\conv1_vivado\conv1_vivado.srcs\sources_1\bd\conv1_system\conv1_system.bd> 
 Wrote  : <D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.srcs/sources_1/bd/conv1_system/ui/bd_f456fd51.ui> 
-CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.051 . PS DDR interfaces might fail when entering negative DQS skew values. 
-CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.006 . PS DDR interfaces might fail when entering negative DQS skew values. 
-CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
-CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.033 . PS DDR interfaces might fail when entering negative DQS skew values. 
-WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
-CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.051 . PS DDR interfaces might fail when entering negative DQS skew values. 
-CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.006 . PS DDR interfaces might fail when entering negative DQS skew values. 
-CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
-CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.033 . PS DDR interfaces might fail when entering negative DQS skew values. 
+Verilog Output written to : d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/synth/conv1_system.v
+Verilog Output written to : d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/sim/conv1_system.v
+Verilog Output written to : d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/hdl/conv1_system_wrapper.v
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_GP0'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI_HP0'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI_HP2'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block conv1_hls_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 .
+Exporting to file d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_axi_smc_0/bd_0/hw_handoff/conv1_system_axi_smc_0.hwh
+Generated Hardware Definition File d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_axi_smc_0/bd_0/synth/conv1_system_axi_smc_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_smc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_50M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon_1/s00_couplers/auto_pc .
+Exporting to file d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/hw_handoff/conv1_system.hwh
+Generated Hardware Definition File d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/synth/conv1_system.hwdef
+INFO: [BD 41-3262] Generated VHDL Instantiation Template file d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/conv1_system.vho
+INFO: [BD 41-3262] Generated Verilog Instantiation Template file d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/conv1_system.veo
+INFO: [BD 41-3262] Generated System Verilog Instantiation Template file d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/conv1_system_sv.sveo
+generate_target: Time (s): cpu = 00:00:40 ; elapsed = 00:00:55 . Memory (MB): peak = 2020.730 ; gain = 86.152
+export_ip_user_files -of_objects [get_files D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.srcs/sources_1/bd/conv1_system/conv1_system.bd] -no_script -sync -force -quiet
+export_simulation -lib_map_path [list {modelsim=D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.cache/compile_simlib/modelsim} {questa=D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.cache/compile_simlib/questa} {riviera=D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.cache/compile_simlib/riviera} {activehdl=D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.cache/compile_simlib/activehdl}] -of_objects [get_files D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.srcs/sources_1/bd/conv1_system/conv1_system.bd] -directory D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.ip_user_files/sim_scripts -ip_user_files_dir D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.ip_user_files -ipstatic_source_dir D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.srcs/sources_1/bd/conv1_system/conv1_system.bd] -top
+add_files -norecurse d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/hdl/conv1_system_wrapper.v
+launch_runs synth_1 -jobs 8
+[Tue Nov 10 14:27:14 2026] Launched synth_1...
+Run output will be captured here: D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Tue Nov 10 14:27:34 2026] Launched synth_1...
+Run output will be captured here: D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg400-1
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-5699] Read binary netlist with skipMacroContent - 1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.082 . Memory (MB): peak = 3558.371 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 607 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2026.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_processing_system7_0_0/conv1_system_processing_system7_0_0.xdc] for cell 'conv1_system_i/processing_system7_0/inst'
+Finished Parsing XDC File [d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_processing_system7_0_0/conv1_system_processing_system7_0_0.xdc] for cell 'conv1_system_i/processing_system7_0/inst'
+Parsing XDC File [d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_axi_dma_0_0/conv1_system_axi_dma_0_0.xdc] for cell 'conv1_system_i/axi_dma_0/U0'
+Finished Parsing XDC File [d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_axi_dma_0_0/conv1_system_axi_dma_0_0.xdc] for cell 'conv1_system_i/axi_dma_0/U0'
+Parsing XDC File [d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_axi_smc_0/bd_0/ip/ip_0/bd_f305_sc_ul_0_cdc.xdc] for cell 'conv1_system_i/axi_smc/inst/sc_ul/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-7' -to list should not be empty. [d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_axi_smc_0/bd_0/ip/ip_0/bd_f305_sc_ul_0_cdc.xdc:22]
+Finished Parsing XDC File [d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_axi_smc_0/bd_0/ip/ip_0/bd_f305_sc_ul_0_cdc.xdc] for cell 'conv1_system_i/axi_smc/inst/sc_ul/inst'
+Parsing XDC File [d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_axi_smc_0/smartconnect.xdc] for cell 'conv1_system_i/axi_smc/inst'
+Finished Parsing XDC File [d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_axi_smc_0/smartconnect.xdc] for cell 'conv1_system_i/axi_smc/inst'
+Parsing XDC File [d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_rst_ps7_0_50M_0/conv1_system_rst_ps7_0_50M_0_board.xdc] for cell 'conv1_system_i/rst_ps7_0_50M/U0'
+Finished Parsing XDC File [d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_rst_ps7_0_50M_0/conv1_system_rst_ps7_0_50M_0_board.xdc] for cell 'conv1_system_i/rst_ps7_0_50M/U0'
+Parsing XDC File [d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_axi_dma_0_0/conv1_system_axi_dma_0_0_clocks.xdc] for cell 'conv1_system_i/axi_dma_0/U0'
+Finished Parsing XDC File [d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_axi_dma_0_0/conv1_system_axi_dma_0_0_clocks.xdc] for cell 'conv1_system_i/axi_dma_0/U0'
+INFO: [Project 1-1714] 11 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-1687] 4 scoped IP constraints or related sub-commands were skipped due to synthesis logic optimizations usually triggered by constant connectivity or unconnected output pins. To review the skipped constraints and messages, run the command 'set_param netlist.IPMsgFiltering false' before opening the design.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 3558.371 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
+
+open_run: Time (s): cpu = 00:00:40 ; elapsed = 00:00:29 . Memory (MB): peak = 3558.371 ; gain = 0.000
+set_load 5 [all_outputs]
+report_power -name {power_1}
+Command: report_power -name power_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+1 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:16 ; elapsed = 00:00:12 . Memory (MB): peak = 3558.371 ; gain = 0.000
+report_utilization -hierarchical_min_primitive_count 50 -name utilization_1
+report_utilization -hierarchical_min_primitive_count 50 -name utilization_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+WARNING: [IP_Flow 19-4318] IP-XACT file does not exist: d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_hls/hls/impl/ip/component.xml. It will be created.
+WARNING: [IP_Flow 19-4318] IP-XACT file does not exist: d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_hls/hls/impl/ip/component.xml. It will be created.
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_hls/hls/impl/ip'.
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:hls:conv1_hls:1.0 [get_ips  conv1_system_conv1_hls_0_0] -log ip_upgrade.log
+Upgrading 'D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.srcs/sources_1/bd/conv1_system/conv1_system.bd'INFO: [IP_Flow 19-3422] Upgraded conv1_system_conv1_hls_0_0 (Conv1 INT8 Accelerator 1.0) from revision 2114852641 to revision 2114867803
+Wrote  : <D:\SoC_PYNQ_Z2_MRI_CNN\Source\conv1_vivado\conv1_vivado.srcs\sources_1\bd\conv1_system\conv1_system.bd> 
+Wrote  : <D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.srcs/sources_1/bd/conv1_system/ui/bd_f456fd51.ui> 
+INFO: [Ipptcl 7-1680] Wrote upgrade log to 'D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips conv1_system_conv1_hls_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.srcs/sources_1/bd/conv1_system/conv1_system.bd]
+INFO: [BD 5-943] Reserving offset range <0x41E0_0000 [ 64K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [BD 5-943] Reserving offset range <0x4000_0000 [ 64K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M01_AXI'. This will be used by smartconnect on path for routing.
+INFO: [BD 5-943] Reserving offset range <0x41E0_0000 [ 64K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [BD 5-943] Reserving offset range <0x4000_0000 [ 64K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M01_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] conv1_system_axi_smc_0: SmartConnect conv1_system_axi_smc_0 is in Ultralite mode.
+Wrote  : <D:\SoC_PYNQ_Z2_MRI_CNN\Source\conv1_vivado\conv1_vivado.srcs\sources_1\bd\conv1_system\conv1_system.bd> 
+Verilog Output written to : d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/synth/conv1_system.v
+Verilog Output written to : d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/sim/conv1_system.v
+Verilog Output written to : d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/hdl/conv1_system_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block conv1_hls_0 .
+Exporting to file d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_axi_smc_0/bd_0/hw_handoff/conv1_system_axi_smc_0.hwh
+Generated Hardware Definition File d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_axi_smc_0/bd_0/synth/conv1_system_axi_smc_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_smc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon_1/s00_couplers/auto_pc .
+Exporting to file d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/hw_handoff/conv1_system.hwh
+Generated Hardware Definition File d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/synth/conv1_system.hwdef
+INFO: [BD 41-3262] Generated VHDL Instantiation Template file d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/conv1_system.vho
+INFO: [BD 41-3262] Generated Verilog Instantiation Template file d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/conv1_system.veo
+INFO: [BD 41-3262] Generated System Verilog Instantiation Template file d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/conv1_system_sv.sveo
+generate_target: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 3558.371 ; gain = 0.000
+export_ip_user_files -of_objects [get_files D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.srcs/sources_1/bd/conv1_system/conv1_system.bd] -no_script -sync -force -quiet
+export_simulation -lib_map_path [list {modelsim=D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.cache/compile_simlib/modelsim} {questa=D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.cache/compile_simlib/questa} {riviera=D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.cache/compile_simlib/riviera} {activehdl=D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.cache/compile_simlib/activehdl}] -of_objects [get_files D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.srcs/sources_1/bd/conv1_system/conv1_system.bd] -directory D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.ip_user_files/sim_scripts -ip_user_files_dir D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.ip_user_files -ipstatic_source_dir D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
+file mkdir D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.srcs/constrs_1/new
+close [ open D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.srcs/constrs_1/new/ct.xdc w ]
+add_files -fileset constrs_1 D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.srcs/constrs_1/new/ct.xdc
+set_property target_constrs_file D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.srcs/constrs_1/new/ct.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Tue Nov 10 14:45:56 2026] Launched synth_1...
+Run output will be captured here: D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.runs/synth_1/runme.log
+report_power -name {power_2}
+Command: report_power -name power_2
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+0 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 3558.371 ; gain = 0.000
+report_utilization -hierarchical_min_primitive_count 50 -name utilization_2
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_2
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+refresh_design
+INFO: [Project 1-5699] Read binary netlist with skipMacroContent - 1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.079 . Memory (MB): peak = 4378.684 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 607 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2026.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_processing_system7_0_0/conv1_system_processing_system7_0_0.xdc] for cell 'conv1_system_i/processing_system7_0/inst'
+Finished Parsing XDC File [d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_processing_system7_0_0/conv1_system_processing_system7_0_0.xdc] for cell 'conv1_system_i/processing_system7_0/inst'
+Parsing XDC File [d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_axi_dma_0_0/conv1_system_axi_dma_0_0.xdc] for cell 'conv1_system_i/axi_dma_0/U0'
+Finished Parsing XDC File [d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_axi_dma_0_0/conv1_system_axi_dma_0_0.xdc] for cell 'conv1_system_i/axi_dma_0/U0'
+Parsing XDC File [d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_axi_smc_0/bd_0/ip/ip_0/bd_f305_sc_ul_0_cdc.xdc] for cell 'conv1_system_i/axi_smc/inst/sc_ul/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-7' -to list should not be empty. [d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_axi_smc_0/bd_0/ip/ip_0/bd_f305_sc_ul_0_cdc.xdc:22]
+Finished Parsing XDC File [d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_axi_smc_0/bd_0/ip/ip_0/bd_f305_sc_ul_0_cdc.xdc] for cell 'conv1_system_i/axi_smc/inst/sc_ul/inst'
+Parsing XDC File [d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_axi_smc_0/smartconnect.xdc] for cell 'conv1_system_i/axi_smc/inst'
+Finished Parsing XDC File [d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_axi_smc_0/smartconnect.xdc] for cell 'conv1_system_i/axi_smc/inst'
+Parsing XDC File [d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_rst_ps7_0_50M_0/conv1_system_rst_ps7_0_50M_0_board.xdc] for cell 'conv1_system_i/rst_ps7_0_50M/U0'
+Finished Parsing XDC File [d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_rst_ps7_0_50M_0/conv1_system_rst_ps7_0_50M_0_board.xdc] for cell 'conv1_system_i/rst_ps7_0_50M/U0'
+Parsing XDC File [D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.srcs/constrs_1/new/ct.xdc]
+Finished Parsing XDC File [D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.srcs/constrs_1/new/ct.xdc]
+Parsing XDC File [d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_axi_dma_0_0/conv1_system_axi_dma_0_0_clocks.xdc] for cell 'conv1_system_i/axi_dma_0/U0'
+Finished Parsing XDC File [d:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.gen/sources_1/bd/conv1_system/ip/conv1_system_axi_dma_0_0/conv1_system_axi_dma_0_0_clocks.xdc] for cell 'conv1_system_i/axi_dma_0/U0'
+INFO: [Project 1-1714] 11 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-1687] 4 scoped IP constraints or related sub-commands were skipped due to synthesis logic optimizations usually triggered by constant connectivity or unconnected output pins. To review the skipped constraints and messages, run the command 'set_param netlist.IPMsgFiltering false' before opening the design.
+refresh_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:19 . Memory (MB): peak = 4378.684 ; gain = 0.000
+open_bd_design {D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.srcs/sources_1/bd/conv1_system/conv1_system.bd}
 exit
-INFO: [Common 17-206] Exiting Vivado at Fri Nov  6 22:19:14 2026...
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 10 15:06:29 2026...

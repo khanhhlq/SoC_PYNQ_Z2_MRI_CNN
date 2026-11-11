@@ -1,6 +1,5 @@
 INFO: [SIM 2] *************** CSIM start ***************
-   Compiling ../../../../conv1.cpp in debug mode
-   Generating csim.exe
+mingw32-make: 'csim.exe' is up to date.
 Verified 2209 pooled vectors, 17672 INT8 channels; errors=0
 PASS: Conv1 + ReLU + MaxPool INT8 CPU vs HLS C simulation
 INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 9216

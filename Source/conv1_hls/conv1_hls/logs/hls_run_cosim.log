@@ -14,6 +14,8 @@ INFO: [HLS 200-1465] Applying config ini 'syn.top=conv1_hls' from hls_config.cfg
 INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from hls_config.cfg(1)
 INFO: [HLS 200-1465] Applying config ini 'clock=10ns' from hls_config.cfg(6)
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying config ini 'package.ip.description=Tiny CNN V5 Conv1 INT8 Accelerator' from hls_config.cfg(11)
+INFO: [HLS 200-1465] Applying config ini 'package.ip.display_name=Conv1 INT8 Accelerator' from hls_config.cfg(12)
 INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(4)
 INFO: [HLS 200-2176] Writing Vitis IDE component file D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_hls/vitis-comp.json
 INFO: [COSIM 212-47] Using XSIM for RTL simulation.
@@ -277,7 +279,7 @@ Built simulation snapshot conv1_hls
   **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
   **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
   **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
-  **** Start of session at: Sat Oct 31 01:58:16 2026
+  **** Start of session at: Tue Nov 10 14:43:13 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
 
@@ -587,12 +589,12 @@ UVM_INFO C:/AMDDesignTools/2026.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_pa
 ////////////////////////////////////////////////////////////////////////////////////
 $finish called at time : 92545 ns : File "C:/AMDDesignTools/2026.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
 ## quit
-INFO: [Common 17-206] Exiting xsim at Sat Oct 31 01:58:25 2026...
+INFO: [Common 17-206] Exiting xsim at Tue Nov 10 14:43:19 2026...
 INFO: [COSIM 212-316] Starting C post checking ...
 Verified 2209 pooled vectors, 17672 INT8 channels; errors=0
 PASS: Conv1 + ReLU + MaxPool INT8 CPU vs HLS C simulation
 INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 9216
 INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
 INFO: [COSIM 212-211] II is measurable only when transaction number is greater than 1 in RTL simulation. Otherwise, they will be marked as all NA. If user wants to calculate them, please make sure there are at least 2 transactions in RTL simulation.
-INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 2 seconds. Total elapsed time: 102.918 seconds; peak allocated memory: 217.730 MB.
-INFO: [vitis-run 60-791] Total elapsed time: 0h 1m 47s
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 3 seconds. Total elapsed time: 107.384 seconds; peak allocated memory: 217.559 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 1m 52s

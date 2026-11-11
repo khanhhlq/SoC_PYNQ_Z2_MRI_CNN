@@ -25,7 +25,7 @@ INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detect
   **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
   **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
   **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
-  **** Start of session at: Sat Oct 31 02:01:41 2026
+  **** Start of session at: Tue Nov 10 14:43:53 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
 
@@ -35,7 +35,7 @@ INFO: Copied 1 ipmisc file(s) to D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_h
 INFO: Copied 43 verilog file(s) to D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_hls/hls/impl/ip/hdl/verilog
 INFO: Copied 41 vhdl file(s) to D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_hls/hls/impl/ip/hdl/vhdl
 INFO: Copied 10 swdriver file(s) to D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_hls/hls/impl/ip/drivers
-ipx::create_core: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 590.066 ; gain = 269.117
+ipx::create_core: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 591.547 ; gain = 272.449
 INFO: Import ports from HDL: D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_hls/hls/impl/ip/hdl/vhdl/conv1_hls.vhd (conv1_hls)
 INFO: Add axi4lite interface s_axi_control
 INFO: Add clock interface ap_clk
@@ -51,7 +51,7 @@ INFO: Calling post_process_sysgen to specialize IP
 Generating sysgen info xml from json file
 INFO: Created IP D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_hls/hls/impl/ip/component.xml
 INFO: Created IP archive D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_hls/conv1_hls/hls/impl/ip/xilinx_com_hls_conv1_hls_1_0.zip
-INFO: [Common 17-206] Exiting Vivado at Sat Oct 31 02:02:02 2026...
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 10 14:44:10 2026...
 INFO: [HLS 200-802] Generated output file conv1_hls/conv1_hls.zip
-INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 26.251 seconds; peak allocated memory: 211.605 MB.
-INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 30s
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 3 seconds. Total elapsed time: 23.164 seconds; peak allocated memory: 212.199 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 29s

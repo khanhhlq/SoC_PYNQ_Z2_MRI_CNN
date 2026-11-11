@@ -68,7 +68,7 @@
     "Name": "conv1_hls",
     "Version": "1.0",
     "DisplayName": "Conv1 INT8 Accelerator",
-    "Revision": "2114852641",
+    "Revision": "2114867803",
     "Description": "Tiny CNN V5 Conv1 INT8 Accelerator",
     "Taxonomy": "\/VITIS_HLS_IP",
     "AutoFamilySupport": "",
@@ -650,7 +650,7 @@
   "GenerateBdFiles": "0",
   "GenData": {
     "DataVersion": "0.2",
-    "Time": "2026-10-31 02:01:40 +0700",
+    "Time": "2026-11-10 14:43:52 +0700",
     "ToolName": "vitis_hls",
     "ToolVersion": "2026.1"
   }

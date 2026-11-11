@@ -1,0 +1,95 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Fri Nov  6 19:48:16 2026
+# Process ID         : 4120
+# Current directory  : D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent21220 D:\SoC_PYNQ_Z2_MRI_CNN\Source\conv1_vivado\conv1_vivado.xpr
+# Log file           : D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/vivado.log
+# Journal file       : D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado\vivado.jou
+# Running On         : KHANHLQ
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 7735HS with Radeon Graphics        
+# CPU Frequency      : 3194 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 14286 MB
+# Swap memory        : 16106 MB
+# Total Virtual      : 30392 MB
+# Available Virtual  : 5481 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/SoC_PYNQ_Z2_MRI_CNN/Source/conv1_vivado/conv1_vivado.srcs/sources_1/bd/conv1_system/conv1_system.bd}
+regenerate_bd_layout
+regenerate_bd_layout
+copy_bd_objs /  [get_bd_cells {conv1_hls_0}]
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins conv1_hls_1/s_axi_control]
+endgroup
+set_property location {658 -448} [get_bd_intf_ports s_axi_control_0]
+set_property location {1 163 -438} [get_bd_cells conv1_hls_1]
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins conv1_hls_1/s_axis]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins conv1_hls_1/ap_clk]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins conv1_hls_1/ap_rst_n]
+endgroup
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins conv1_hls_1/m_axis]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins conv1_hls_1/interrupt]
+endgroup
+set_property location {385 -455} [get_bd_intf_ports m_axis_0]
+set_property location {414 -406} [get_bd_ports interrupt_0]
+set_property location {806 -453} [get_bd_intf_ports m_axis_0]
+set_property location {739 -407} [get_bd_ports interrupt_0]
+set_property location {794 -443} [get_bd_ports interrupt_0]
+set_property location {442 -464} [get_bd_ports interrupt_0]
+set_property location {441 -451} [get_bd_ports interrupt_0]
+set_property location {445 -564} [get_bd_ports interrupt_0]
+set_property location {415 -398} [get_bd_ports interrupt_0]
+set_property location {437 -538} [get_bd_ports interrupt_0]
+regenerate_bd_layout
+undo
+delete_bd_objs [get_bd_nets conv1_hls_1_interrupt]
+delete_bd_objs [get_bd_ports interrupt_0]
+delete_bd_objs [get_bd_intf_nets conv1_hls_1_m_axis] [get_bd_intf_ports m_axis_0]
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins conv1_hls_1/m_axis]
+endgroup
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+regenerate_bd_layout
+save_bd_design
